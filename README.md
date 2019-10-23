@@ -1,2 +1,2 @@
-# besian-kodra-p1
-Project 1
+# besian-kodra-project-1
+homework repo
