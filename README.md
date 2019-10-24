@@ -1,2 +1,2 @@
 # besian-kodra-project-1
-homework repo
+First project repo
