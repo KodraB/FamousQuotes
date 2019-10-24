@@ -14,19 +14,19 @@ namespace Persistence
         var Posts = new List<Post>
             {
               new Post {
-                Title = "First post!",
+                Title = "Time",
                 Date = DateTime.Now.AddDays(-10),
-                Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                Body = "Time you enjoy wasting, was not wasted. -John Lennon"
               },
               new Post {
-                Title = "This is my second post.",
+                Title = "Pain",
                 Date = DateTime.Now.AddDays(-7),
-                Body = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+                Body = "If you are pained by any external thing, it is not this thing that disturbs you, but your own judgment about it. And it is in your power to wipe out this judgment now. -Marcus Aurelius"
               },
               new Post {
-                Title = "Another day, another post",
+                Title = "Peace",
                 Date = DateTime.Now.AddDays(-4),
-                Body = "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."
+                Body = "If everyone demanded peace instead of another television set, then there'd be peace. -John Lennon"
               }
             };
 
