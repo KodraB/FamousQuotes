@@ -7,8 +7,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+  background: linear-gradient(to right, #0f2027 0%, #2c5364 50%, #0d2027 100%);
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 4vmin);
+  color: white;
+}
+
+.App-footer {
+  background: linear-gradient(to right, #0f2027 0%, #2c5364 50%, #0d2027 100%);
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,5 +33,23 @@
 }
 
 .App-content {
-  margin: 30px;
+  background: linear-gradient(to right, #00f260 0%, #0575e6 100%);
+  padding: 1% 22% 1% 22%;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6161;
+}
+
+p {
+  text-align: justify;
+  margin: 1%;
+  color: white;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #358abb;
 }

@@ -28,6 +28,8 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("Date");
 
                     b.Property<string>("Title");
+                    
+                    b.Property<string>("Author");
 
                     b.HasKey("Id");
 
