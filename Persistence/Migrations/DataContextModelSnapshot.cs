@@ -27,6 +27,8 @@ namespace Persistence.Migrations
 
                     b.Property<string>("Title");
 
+                    b.Property<string>("Author");
+
                     b.HasKey("Id");
 
                     b.ToTable("Posts");
