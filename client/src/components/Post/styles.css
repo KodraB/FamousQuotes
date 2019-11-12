@@ -1,0 +1,22 @@
+.item {
+    padding: 10px;
+    border: solid 1px transparent;
+}
+
+.item:hover {
+    background: linear-gradient(to right, #0575e6 0%, #00f260 100%);
+    border-color: #aaaaaa;
+    cursor: pointer;
+}
+
+.item p {
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item h3 {
+    text-align: center;
+    color: #358abb;
+}
