@@ -1,0 +1,29 @@
+.postListItem {
+    padding: 10px;
+    border: solid 1px transparent;
+}
+
+.postListItem:hover {
+    background: linear-gradient(to right, #0575e6 0%, #00f260 100%);
+    border-color: #aaaaaa;
+    cursor: pointer;
+}
+
+.postListItem p {
+    max-width: 700px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postListItem h2 {
+    color: #ff6161;
+}
+
+.postControls {
+    margin: 10px 0 10px 0;
+}
+
+.postControls button {
+    margin-left: 10px;
+}
