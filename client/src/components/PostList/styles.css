@@ -11,6 +11,7 @@
 
 .postListItem p {
     max-width: 700px;
+    margin: 0%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -18,9 +19,13 @@
 
 .postListItem h2 {
     color: #ff6161;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
 }
 
 .postControls {
+    text-align: center;
     margin: 10px 0 10px 0;
 }
 

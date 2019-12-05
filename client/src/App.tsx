@@ -82,6 +82,11 @@ class App extends React.Component {
           <nav>
             <Link to="/">Home</Link>
             <Link to="/new-post">New Post</Link>
+            <a href="https://zealous-goodall-b7a30b.netlify.com/">Portfolio</a>
+            <a href="https://www.linkedin.com/in/besian-kodra/">LinkedIn</a>
+            <a href="https://github.com/KodraB">GitHub</a>
+            <a href="https://mcaweb.matc.edu/kodrab/160/index.html">ITDEV 160</a>
+            <a href="mailto:kodrab@gmatc.matc.edu">Email</a>
           </nav>
           <main className="App-content">
             <Switch>
@@ -104,6 +109,7 @@ class App extends React.Component {
               </Route>
             </Switch>
           </main>
+          <header className="App-footer">Besian Kodra | ITDEV 162 | Project 2</header>
         </div>
       </Router>
     );
