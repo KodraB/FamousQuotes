@@ -1,0 +1,87 @@
+.App-header {
+  background: linear-gradient(to right, #0f2027 0%, #2c5364 50%, #0d2027 100%);
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 4vmin);
+  color: white;
+}
+
+.App-footer {
+  background: linear-gradient(to right, #0f2027 0%, #2c5364 50%, #0d2027 100%);
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-content {
+  background: linear-gradient(to right, #00f260 0%, #0575e6 100%);
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6161;
+}
+
+p {
+  text-align: justify;
+  margin: 1% 22%;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+h3 {
+  text-align: center;
+  color: #358abb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: auto;
+  background: linear-gradient(to bottom, #93291e 0%, #ed213a 50%, #93291e 100%);
+}
+
+nav a {
+  font-size: 2em;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1% 10px 1% 10px;
+}
+
+nav a:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0f2027 0%, #2c5364 50%, #0d2027 100%);
+  font-weight: 500;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: rgb(68, 119, 128);
+  border-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(83, 50, 114);
+}
+
